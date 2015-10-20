@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE252E511BD6EB5A0057F04B /* AKSoundFiles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE252E501BD6EB5A0057F04B /* AKSoundFiles.bundle */; settings = {ASSET_TAGS = (); }; };
+		BE252E531BD6EB600057F04B /* AcousticGuitar.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = BE252E521BD6EB600057F04B /* AcousticGuitar.sf2 */; settings = {ASSET_TAGS = (); }; };
+		C4AC6E791A91EC3C00B2F63B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC6E781A91EC3C00B2F63B /* AppDelegate.swift */; };
+		C4AC6E7B1A91EC3C00B2F63B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC6E7A1A91EC3C00B2F63B /* ViewController.swift */; };
+		C4AC6E7E1A91EC3C00B2F63B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AC6E7C1A91EC3C00B2F63B /* Main.storyboard */; };
+		C4AC6E801A91EC3C00B2F63B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AC6E7F1A91EC3C00B2F63B /* Images.xcassets */; };
+		C4AC6E831A91EC3C00B2F63B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AC6E811A91EC3C00B2F63B /* LaunchScreen.xib */; };
+		C4AC6E9B1A91EC9000B2F63B /* Conductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC6E981A91EC9000B2F63B /* Conductor.swift */; };
+		C4AC6E9C1A91EC9000B2F63B /* EffectsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC6E991A91EC9000B2F63B /* EffectsProcessor.swift */; };
+		C4AC6E9D1A91EC9000B2F63B /* ToneGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC6E9A1A91EC9000B2F63B /* ToneGenerator.swift */; };
+		C4FAE5251AEACD6400FD71E2 /* libAudioKit iOS Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAE51E1AEACD5A00FD71E2 /* libAudioKit iOS Static.a */; };
+		C4FAE5271AEACD9600FD71E2 /* AudioKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FAE5261AEACD9600FD71E2 /* AudioKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4FAE51D1AEACD5A00FD71E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FAE5171AEACD5A00FD71E2 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA8E93D81AD3C5240057E979;
+			remoteInfo = "AudioKit iOS Static";
+		};
+		C4FAE51F1AEACD5A00FD71E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FAE5171AEACD5A00FD71E2 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAA0F5941AE71C8F007CD7C9;
+			remoteInfo = "AudioKit iOS Dynamic";
+		};
+		C4FAE5211AEACD5A00FD71E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FAE5171AEACD5A00FD71E2 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA8E96591AD3C6FC0057E979;
+			remoteInfo = "AudioKit OS X";
+		};
+		C4FAE5231AEACD5F00FD71E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FAE5171AEACD5A00FD71E2 /* AudioKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8E93D71AD3C5240057E979;
+			remoteInfo = "AudioKit iOS Static";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE252E501BD6EB5A0057F04B /* AKSoundFiles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AKSoundFiles.bundle; sourceTree = "<group>"; };
+		BE252E521BD6EB600057F04B /* AcousticGuitar.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = AcousticGuitar.sf2; path = AKSoundFiles.bundle/Sounds/AcousticGuitar.sf2; sourceTree = "<group>"; };
+		C4AC6E731A91EC3C00B2F63B /* Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AC6E771A91EC3C00B2F63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AC6E781A91EC3C00B2F63B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4AC6E7A1A91EC3C00B2F63B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4AC6E7D1A91EC3C00B2F63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4AC6E7F1A91EC3C00B2F63B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4AC6E821A91EC3C00B2F63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C4AC6E981A91EC9000B2F63B /* Conductor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conductor.swift; sourceTree = "<group>"; };
+		C4AC6E991A91EC9000B2F63B /* EffectsProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectsProcessor.swift; sourceTree = "<group>"; };
+		C4AC6E9A1A91EC9000B2F63B /* ToneGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneGenerator.swift; sourceTree = "<group>"; };
+		C4FAE5171AEACD5A00FD71E2 /* AudioKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AudioKit.xcodeproj; path = ../../../AudioKitV2.2/AudioKit.xcodeproj; sourceTree = "<group>"; };
+		C4FAE5261AEACD9600FD71E2 /* AudioKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioKit.swift; path = ../../../../AudioKitV2.2/AudioKit/Platforms/Swift/AudioKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4AC6E701A91EC3C00B2F63B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FAE5251AEACD6400FD71E2 /* libAudioKit iOS Static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4AC6E6A1A91EC3C00B2F63B = {
+			isa = PBXGroup;
+			children = (
+				C4FAE5171AEACD5A00FD71E2 /* AudioKit.xcodeproj */,
+				C4AC6E751A91EC3C00B2F63B /* Keyboard */,
+				C4AC6E741A91EC3C00B2F63B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4AC6E741A91EC3C00B2F63B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC6E731A91EC3C00B2F63B /* Keyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4AC6E751A91EC3C00B2F63B /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC6E9E1A91EC9E00B2F63B /* Instruments */,
+				C4AC6E981A91EC9000B2F63B /* Conductor.swift */,
+				C4AC6E7A1A91EC3C00B2F63B /* ViewController.swift */,
+				C4AC6E7C1A91EC3C00B2F63B /* Main.storyboard */,
+				C4AC6E761A91EC3C00B2F63B /* Supporting Files */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		C4AC6E761A91EC3C00B2F63B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE252E521BD6EB600057F04B /* AcousticGuitar.sf2 */,
+				BE252E501BD6EB5A0057F04B /* AKSoundFiles.bundle */,
+				C4FAE5261AEACD9600FD71E2 /* AudioKit.swift */,
+				C4AC6E781A91EC3C00B2F63B /* AppDelegate.swift */,
+				C4AC6E7F1A91EC3C00B2F63B /* Images.xcassets */,
+				C4AC6E811A91EC3C00B2F63B /* LaunchScreen.xib */,
+				C4AC6E771A91EC3C00B2F63B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4AC6E9E1A91EC9E00B2F63B /* Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC6E991A91EC9000B2F63B /* EffectsProcessor.swift */,
+				C4AC6E9A1A91EC9000B2F63B /* ToneGenerator.swift */,
+			);
+			name = Instruments;
+			sourceTree = "<group>";
+		};
+		C4FAE5181AEACD5A00FD71E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4FAE51E1AEACD5A00FD71E2 /* libAudioKit iOS Static.a */,
+				C4FAE5201AEACD5A00FD71E2 /* libAudioKit iOS Dynamic.a */,
+				C4FAE5221AEACD5A00FD71E2 /* libAudioKit OS X.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4AC6E721A91EC3C00B2F63B /* Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AC6E921A91EC3C00B2F63B /* Build configuration list for PBXNativeTarget "Keyboard" */;
+			buildPhases = (
+				C4AC6E6F1A91EC3C00B2F63B /* Sources */,
+				C4AC6E701A91EC3C00B2F63B /* Frameworks */,
+				C4AC6E711A91EC3C00B2F63B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FAE5241AEACD5F00FD71E2 /* PBXTargetDependency */,
+			);
+			name = Keyboard;
+			productName = Keyboard;
+			productReference = C4AC6E731A91EC3C00B2F63B /* Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4AC6E6B1A91EC3C00B2F63B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Aurelius Prochazka";
+				TargetAttributes = {
+					C4AC6E721A91EC3C00B2F63B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C4AC6E6E1A91EC3C00B2F63B /* Build configuration list for PBXProject "Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4AC6E6A1A91EC3C00B2F63B;
+			productRefGroup = C4AC6E741A91EC3C00B2F63B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C4FAE5181AEACD5A00FD71E2 /* Products */;
+					ProjectRef = C4FAE5171AEACD5A00FD71E2 /* AudioKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C4AC6E721A91EC3C00B2F63B /* Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C4FAE51E1AEACD5A00FD71E2 /* libAudioKit iOS Static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit iOS Static.a";
+			remoteRef = C4FAE51D1AEACD5A00FD71E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C4FAE5201AEACD5A00FD71E2 /* libAudioKit iOS Dynamic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit iOS Dynamic.a";
+			remoteRef = C4FAE51F1AEACD5A00FD71E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C4FAE5221AEACD5A00FD71E2 /* libAudioKit OS X.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit OS X.a";
+			remoteRef = C4FAE5211AEACD5A00FD71E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4AC6E711A91EC3C00B2F63B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AC6E7E1A91EC3C00B2F63B /* Main.storyboard in Resources */,
+				C4AC6E831A91EC3C00B2F63B /* LaunchScreen.xib in Resources */,
+				C4AC6E801A91EC3C00B2F63B /* Images.xcassets in Resources */,
+				BE252E531BD6EB600057F04B /* AcousticGuitar.sf2 in Resources */,
+				BE252E511BD6EB5A0057F04B /* AKSoundFiles.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4AC6E6F1A91EC3C00B2F63B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AC6E7B1A91EC3C00B2F63B /* ViewController.swift in Sources */,
+				C4AC6E9C1A91EC9000B2F63B /* EffectsProcessor.swift in Sources */,
+				C4AC6E9D1A91EC9000B2F63B /* ToneGenerator.swift in Sources */,
+				C4FAE5271AEACD9600FD71E2 /* AudioKit.swift in Sources */,
+				C4AC6E9B1A91EC9000B2F63B /* Conductor.swift in Sources */,
+				C4AC6E791A91EC3C00B2F63B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4FAE5241AEACD5F00FD71E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AudioKit iOS Static";
+			targetProxy = C4FAE5231AEACD5F00FD71E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4AC6E7C1A91EC3C00B2F63B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AC6E7D1A91EC3C00B2F63B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4AC6E811A91EC3C00B2F63B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AC6E821A91EC3C00B2F63B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4AC6E901A91EC3C00B2F63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4AC6E911A91EC3C00B2F63B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4AC6E931A91EC3C00B2F63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.audiokit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Keyboard/Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "../../../AudioKitV2.2/AudioKit/**";
+			};
+			name = Debug;
+		};
+		C4AC6E941A91EC3C00B2F63B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.audiokit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Keyboard/Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "../../../AudioKitV2.2/AudioKit/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4AC6E6E1A91EC3C00B2F63B /* Build configuration list for PBXProject "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AC6E901A91EC3C00B2F63B /* Debug */,
+				C4AC6E911A91EC3C00B2F63B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AC6E921A91EC3C00B2F63B /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AC6E931A91EC3C00B2F63B /* Debug */,
+				C4AC6E941A91EC3C00B2F63B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4AC6E6B1A91EC3C00B2F63B /* Project object */;
+}
